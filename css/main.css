@@ -15,11 +15,10 @@ box-sizing: border-box;
 
 body {
     margin: 0;
-    font-family: 'DM SANS', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
-    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 42px;
     font-weight: 500;
     line-height: 46px;
@@ -28,6 +27,13 @@ h1 {
     color: #2B0236;
 }
 
+h2 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: center;
+}
 contentholder{
     display: flex;
     justify-content: center;
@@ -186,14 +192,7 @@ hero .demo-button:hover {
     background-color: azure;
 }
 
-.trustet-brands h3 {
-    width: 100%;
-    font-family: 'Roboto';
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 56px;
-    text-align: center;
-}
+
 
 .trustet-brands .gallery {
     display: flex;
@@ -207,4 +206,55 @@ hero .demo-button:hover {
     height: 100px;
     object-fit: contain;
     object-position: bottom;
+}
+
+.about_us{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: lemonchiffon;
+}
+
+.about_us .colab_app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: red;
+}
+
+.about_us .colab_app .features{
+    display: flex;
+    width: 640px;
+    
+    height: 400px;
+    background-color: #cccccc;
+}
+
+.about_us .colab_app .demo{
+    display: flex;
+    width: 300px;
+    
+    height: 600px;
+    background-color: cadetblue;
+}
+
+.about_us .video_promo p{
+    width: 1100px;
+    padding: 40px 0;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.about_us .video_promo .video_placeholder{
+    display: flex;
+    width: 1200px;
+    height: 400px;
+    background-color: blue;
 }
