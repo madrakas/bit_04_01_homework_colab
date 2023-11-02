@@ -34,6 +34,11 @@ h2 {
     line-height: 56px;
     text-align: center;
 }
+
+a{
+    color: #60267F;
+    text-decoration: none;
+}
 contentholder{
     display: flex;
     justify-content: center;
@@ -42,9 +47,6 @@ contentholder{
 content{
     width: 1536px;
     display: inline-block;
-    background-color: lightcyan;
-    
-    padding-bottom: 10px;
 }
 
 header{
@@ -137,15 +139,12 @@ hero {
     width: 100%;
     justify-content: center;
     padding: 60px 0;
-
-    background-color: lightsalmon;
 }
 
 hero .demo-section {
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: cornsilk;
     margin: 40px 0;
 }
 
@@ -177,7 +176,6 @@ hero .demo-button:hover {
     height: 400px;
     flex-direction: column;
     align-items: center;
-    background-color: aquamarine;
 }
 
 .trustet-brands {
@@ -189,7 +187,6 @@ hero .demo-button:hover {
     align-items: center;
     gap: 10px;
     padding: 50px 0;
-    background-color: azure;
 }
 
 
@@ -214,7 +211,6 @@ hero .demo-button:hover {
     width: 100%;
     justify-content: center;
     padding-bottom: 50px;
-    background-color: lemonchiffon;
 }
 
 .about_us .colab_app {
@@ -224,15 +220,13 @@ hero .demo-button:hover {
     width: 100%;
     justify-content: center;
     margin: 20px 0;
-    background-color: red;
 }
 
 .about_us .colab_app .features{
     display: flex;
     width: 640px;
-    
     height: 400px;
-    background-color: #cccccc;
+    background-color: cadetblue;
 }
 
 .about_us .colab_app .demo{
@@ -307,7 +301,6 @@ hero .demo-button:hover {
     width: 100%;
     justify-content: center;
     padding-bottom: 50px;
-    background-color: hotpink;
 }
 
 .sales .description{
@@ -386,7 +379,6 @@ hero .demo-button:hover {
     width: 100%;
     justify-content: center;
     padding: 50px 0;
-    background-color: chocolate;
 }
 
 .join_us p{
@@ -403,7 +395,6 @@ hero .demo-button:hover {
     justify-content: center;
     width: 100%;
     position: relative;
-    background-color: cornflowerblue;
     width: 1300px;
     height: 400px;
 }
@@ -456,6 +447,99 @@ hero .demo-button:hover {
     background-color: white;
     color: #9A54BC;
 }
+
+
+.contacts_section{
+    display: flex;
+    width: 100%;
+  }
+ .contacts_section .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+ }
+
+ .contacts_section .contacts p{
+    margin-top: 30px;
+    font-size:20px;
+    line-height: 60px;
+    text-align: center;
+}
+
+ .contacts_section .map{
+    width: 800px;
+    height: 600px;
+    background-color: #FFE87A;
+ }
+
+.footer_section{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.footer_section .left_foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    padding-right: 30px;
+}
+
+.footer_section .left_foot .head-logo{
+    position:inherit;
+    width: 100%;
+    justify-content: start;
+}
+
+.footer_section .left_foot .social{
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+.footer_section .right_foot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 30px;
+ }
+
+ .footer_section .foot_column{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    gap: 20px;
+    padding: 15px;
+    background-color: aqua;
+
+
+ }
+
+ .footer_section .right_foot .email{
+    display: flex;
+    width: 100%;
+ }
+
+
+.bottom_line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #60267F;
+    color:white
+}
+
+
+
+
+
+
 
 
  /* The switch - the box around the slider */
@@ -521,27 +605,4 @@ hero .demo-button:hover {
     border-radius: 50%;
   } 
 
-  .contacts_section{
-    display: flex;
-    width: 100%;
-  }
- .contacts_section .contacts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
- }
-
- .contacts_section .contacts p{
-    margin-top: 30px;
-    font-size:20px;
-    line-height: 60px;
-    text-align: center;
-}
-
- .contacts_section .map{
-    width: 800px;
-    height: 600px;
-    background-color: #FFE87A;
- }
+  
