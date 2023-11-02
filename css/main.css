@@ -171,11 +171,67 @@ hero .demo-button:hover {
 
 
 .hero-image {
+    position: relative;
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 700px;
     flex-direction: column;
     align-items: center;
+}
+
+.hero-image .circle1{
+    display: flex;
+    justify-content: center;
+    height: 690px;
+    width: 690px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #FCF6FF;
+}
+
+.hero-image .circle2{
+    height: 450px;
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color: #F7E5FF;
+}
+
+.hero-image .monolith {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 470px;
+    top: 50px;
+    background-color: white;
+    border: 4px #9A54BC solid;
+    border-radius: 4px;
+}
+
+.hero-image .explore_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 560px;
+    background-color: white;
+    border: 4px #9A54BC solid;
+    color: #9A54BC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-image .explore_button:hover{
+    background-color: #9A54BC;
+    color: white;
+}
+
+.hero-image .monolith .head-logo{
+    left: inherit;
 }
 
 .trustet-brands {
