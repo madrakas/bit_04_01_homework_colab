@@ -258,3 +258,46 @@ hero .demo-button:hover {
     height: 400px;
     background-color: blue;
 }
+
+.our_custommers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #FCF8FE;
+}
+
+.our_custommers .gallery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 3s0px;
+}
+
+.our_custommers .custommer{
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.our_custommers .custommer .type{
+    padding: 10px 20px; 
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #60267F;
+
+}
+
+.our_custommers .custommer .numbers{
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.our_custommers .gallery img{
+    width: 364px;
+    height: 245px;
+}
+
