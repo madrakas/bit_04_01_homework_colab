@@ -1,4 +1,9 @@
+@font-face { font-family: 'DM SANS'; src: url('../fonts/DMSans-VariableFont_opsz,wght.ttf'); }
+@font-face { font-family: "DM SANS"; src: url("../fonts/DMSans-Italic-VariableFont_opsz,wght.ttf"); font-style: italic;}
+@font-face { font-family: 'Comfortaa'; src: url('../fonts/Comfortaa-VariableFont_wght.ttf'); }
+
 body, body * {
+    
 margin: 0;
 padding: 0;
 vertical-align: top;
@@ -7,5 +12,103 @@ box-sizing: border-box;
 
 body {
 margin: 0;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'DM SANS', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+contentholder{
+    display: flex;
+    justify-content: center;
+}
+
+content{
+    width: 1536px;
+    display: inline-block;
+    background-color: lightcyan;
+    
+    padding-bottom: 10px;
+}
+
+head{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.head-top{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: #60267F;
+    color:white;
+    padding: 13px 0;
+    font-family: 'DM SANS';
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.head-top a{
+    color: white;
+}
+
+.head-bottom{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: white;;
+    align-items: center;
+    justify-content: right;
+}
+
+.head-logo {
+    display: flex;
+    position: absolute;
+    left: 100px;
+    width: 220px;
+    padding: 2px 0;
+    justify-content: center;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 69px;
+    color: #9A54BC;
+}
+
+.head-nav{
+    display: flex;
+    justify-content: right;
+    gap: 39px;
+    margin-right: 29px;
+    box-sizing: border-box;
+}
+
+.head-nav > .menu-item {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 46px 0;
+    cursor: pointer;
+   
+}
+
+.head-nav > .menu-item:hover {
+    color: #9A54BC;
+}
+
+.head-demo-button {
+    text-align: center;
+    width: 139px;
+    /* top: 74px;
+    left: 1757px; */
+    padding: 10px;
+    margin: 10px;
+    border: 2px #9A54BC solid ;
+    border-radius: 4px;
+    color: #9A54BC;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.head-demo-button:hover {
+    background-color: #9A54BC;
+    color: white;
 }
