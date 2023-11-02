@@ -423,12 +423,39 @@ hero .demo-button:hover {
 }
 
 
+.download_section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #9A54BC;
+    color: white;
+}
 
+.download_section .buttons{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+.download_section .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px white solid;
+    border-radius: 4px;
+    width: 200px;
+    height: 48px;
+    cursor: pointer;
+}
 
-
-
-
+.download_section .button.active{
+    background-color: white;
+    color: #9A54BC;
+}
 
 
  /* The switch - the box around the slider */
