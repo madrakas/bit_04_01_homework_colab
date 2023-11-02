@@ -357,7 +357,7 @@ hero .demo-button:hover {
     flex-direction: column;
     padding: 50px 0;
     width: 100%;
-    background-color: #FFE87A;
+    background-color: #FCF8FE;
 }
 
 .review-list .rating_stars{
@@ -520,3 +520,28 @@ hero .demo-button:hover {
   .slider.round:before {
     border-radius: 50%;
   } 
+
+  .contacts_section{
+    display: flex;
+    width: 100%;
+  }
+ .contacts_section .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+ }
+
+ .contacts_section .contacts p{
+    margin-top: 30px;
+    font-size:20px;
+    line-height: 60px;
+    text-align: center;
+}
+
+ .contacts_section .map{
+    width: 800px;
+    height: 600px;
+    background-color: #FFE87A;
+ }
