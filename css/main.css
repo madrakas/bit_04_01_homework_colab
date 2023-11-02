@@ -1,6 +1,9 @@
 @font-face { font-family: 'DM SANS'; src: url('../fonts/DMSans-VariableFont_opsz,wght.ttf'); }
 @font-face { font-family: "DM SANS"; src: url("../fonts/DMSans-Italic-VariableFont_opsz,wght.ttf"); font-style: italic;}
 @font-face { font-family: 'Comfortaa'; src: url('../fonts/Comfortaa-VariableFont_wght.ttf'); }
+@font-face { font-family: 'Roboto'; src: url('../fonts/Roboto-Regular.ttf'); }
+
+
 
 body, body * {
     
@@ -11,8 +14,18 @@ box-sizing: border-box;
 }
 
 body {
-margin: 0;
-font-family: 'DM SANS', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    font-family: 'DM SANS', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 46px;
+    width: 1000px;
+    text-align: center;
+    color: #2B0236;
 }
 
 contentholder{
@@ -28,10 +41,11 @@ content{
     padding-bottom: 10px;
 }
 
-head{
+header{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    border-bottom: 4px #cccccc solid;
 }
 
 .head-top{
@@ -54,7 +68,6 @@ head{
     display: flex;
     position: relative;
     width: 100%;
-    background-color: white;;
     align-items: center;
     justify-content: right;
 }
@@ -96,8 +109,6 @@ head{
 .head-demo-button {
     text-align: center;
     width: 139px;
-    /* top: 74px;
-    left: 1757px; */
     padding: 10px;
     margin: 10px;
     border: 2px #9A54BC solid ;
@@ -111,4 +122,54 @@ head{
 .head-demo-button:hover {
     background-color: #9A54BC;
     color: white;
+}
+
+
+hero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 60px 0;
+
+    background-color: lightsalmon;
+}
+
+hero .demo-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: cornsilk;
+    margin: 40px 0;
+}
+
+hero .demo-button{
+    text-align: center;
+    width: 255px;
+    height: 74px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px #9A54BC solid ;
+    border-radius: 4px;
+    background-color: #9A54BC;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+hero .demo-button:hover {
+    background-color: white;
+    color: #9A54BC
+
+}
+
+
+.hero-image {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
 }
