@@ -269,6 +269,15 @@ hero .demo-button:hover {
     padding-bottom: 50px;
 }
 
+.about_us .bg_holder{
+    position: absolute;
+    background-color: #FCF8FE;
+    /* background-color: red; */
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+}
+
 .about_us .colab_app {
     display: flex;
     flex-wrap: wrap;
@@ -276,6 +285,7 @@ hero .demo-button:hover {
     width: 100%;
     justify-content: center;
     margin: 20px 0;
+    z-index: 2;
 }
 
 .about_us .colab_app .features{
@@ -305,7 +315,7 @@ hero .demo-button:hover {
 .about_us .video_promo .video_placeholder{
     display: flex;
     width: 1200px;
-    height: 400px;
+    height: 674px;
     background-color: blue;
 }
 
@@ -508,6 +518,7 @@ hero .demo-button:hover {
 .contacts_section{
     display: flex;
     width: 100%;
+    background-color: #FCF8FE;
   }
  .contacts_section .contacts{
     display: flex;
@@ -571,9 +582,6 @@ hero .demo-button:hover {
     width: 240px;
     gap: 20px;
     padding: 15px;
-    background-color: aqua;
-
-
  }
 
  .footer_section .right_foot .email{
