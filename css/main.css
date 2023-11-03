@@ -290,9 +290,68 @@ hero .demo-button:hover {
 
 .about_us .colab_app .features{
     display: flex;
+    flex-wrap: wrap;
     width: 640px;
-    height: 400px;
+    height: 0;
     background-color: cadetblue;
+}
+
+.about_us .colab_app .features .togle_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60px;
+    padding: 6px; 
+    background-color: white;
+    box-shadow: 10px 5px 5px #ccc;
+}
+
+.about_us .colab_app .features .button{
+    display: flex;
+    width: 50%;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.about_us .colab_app .features .button.active{
+    background-color: #60267F;
+    border: 4px #9A54BC solid;
+    color: white;
+    border-radius: 4px;
+}
+
+.about_us .colab_app .features .gray_list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    z-index: 2;
+
+}
+
+.about_us .colab_app .features .gray_list_item {
+    display: inline-block;
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+.gray_list_bg {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    width: 640px;
+    height: 500px;
+    margin-left: -50px;
+    margin-top: -20px;
+    z-index: 1;
+
 }
 
 .about_us .colab_app .demo{
