@@ -462,14 +462,70 @@ hero .demo-button:hover {
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
-.offer-list .offer{
+.offer-list .offer {
     width: 334px;
-    height: max-content;
+    padding: 30px 15px 30px 30px;
+    /* height: ; */
+    border: 1px #aaa solid;
+    border-radius: 14px;
+} 
+
+.offer-list .offer.special{
     background-color: #56E6A5;
 }
+
+.offer-list .offer h3{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.offer-list .offer h2{
+    margin: 50px 0;
+    text-align: left;
+}
+
+.offer-list .offer ul{
+    margin: 50px 12px;
+    text-align: left;
+}
+
+ul,
+ol {
+  margin: 0.75em 0;
+  padding: 0 1em;
+  list-style: none;
+}
+ul li::before {
+  content: "";
+  border-color: transparent #111;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+
+.offer-list .offer .button{
+    width: calc(100%-60px);
+    margin: 0 30px 50px 30px; 
+    padding: 15px 0;
+    border: 3px black solid;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
 
 .review-list {
     display: flex;
