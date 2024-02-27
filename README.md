@@ -54,7 +54,7 @@ Would like to run this project locally? Open terminal and follow these steps:
     ```sh
     git clone https://github.com/front-end-by-rimantas/46-grupe-ufo.git
     ```
-2. Edit your cloned in you favorite text editor
+2. Edit cloned files in you favorite text editor
 3. To view results, open index.html file in your web browser app.
 
 ### 🧪 Running tests
