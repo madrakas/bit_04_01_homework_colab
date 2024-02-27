@@ -20,11 +20,11 @@ Site published at: https://madrakas.github.io/bit_04_01_homework_colab/
 Design: [Collab landing page](https://www.figma.com/file/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?type=design&node-id=1-971&mode=design)
 
 ## 🧭 Other repositories from same course
-1. [General programming skils and JS](https://github.com/madrakas/bit_01_Intro_to_programming_and_JS/)
-2. [Intro to HTML and CS](https://github.com/madrakas/bit_02_Intro_to_html/)
-3. [HTML and CSS basics, UFO 404 page](https://github.com/madrakas/bit_03_html-ufo)
-4. [HTML and CSS,  Real Estate Website](https://github.com/madrakas/bit_04_html_real_estate/)
-5. Homework Collab landing page (Current repository)
+    1. [General programming skils and JS](https://github.com/madrakas/bit_01_Intro_to_programming_and_JS/)
+    2. [Intro to HTML and CS](https://github.com/madrakas/bit_02_Intro_to_html/)
+    3. [HTML and CSS basics, UFO 404 page](https://github.com/madrakas/bit_03_html-ufo)
+    4. [HTML and CSS,  Real Estate Website](https://github.com/madrakas/bit_04_html_real_estate/)
+        4.1. Homework Collab landing page (Current repository)
 
 ## 🎯 Project features/goals
 
