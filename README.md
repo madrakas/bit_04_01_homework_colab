@@ -3,7 +3,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# BIT Full stack developer course – Part 4. Homework: Colab Website
+# BIT Full stack developer course – Part 4. Practice: Colab Website
 
 _My journey to become a full stack developer_
 
@@ -11,7 +11,7 @@ _My journey to become a full stack developer_
 
 ## 🌟 About
 
-This project is a part of my workbook from Full stack developers course at BIT This is the 4th part of the course – Homework: Colab Website.
+This project is a part of my workbook from Full stack developers course at BIT This is the 4th part of the course – Practice: Colab Website.
 
 Projects porpuses are educational only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
@@ -24,7 +24,8 @@ Design: [Collab landing page](https://www.figma.com/file/9mV6rCFOEd1ptuZ4JBovVS/
     2. [Intro to HTML and CS](https://github.com/madrakas/bit_02_Intro_to_html/)
     3. [HTML and CSS basics, UFO 404 page](https://github.com/madrakas/bit_03_html-ufo)
     4. [HTML and CSS,  Real Estate Website](https://github.com/madrakas/bit_04_html_real_estate/)
-        4.1. Homework Collab landing page (Current repository)
+        4.1. [Practice: Photographer webpage](https://github.com/madrakas/bit_04_01_homework_photographer/)
+        4.2. Practice: Collab landing page (Current repository)
 
 ## 🎯 Project features/goals
 
